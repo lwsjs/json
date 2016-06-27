@@ -6,9 +6,6 @@
   "repository": "https://github.com/local-web-server/json.git",
   "license": "MIT",
   "main": "./lib/json.js",
-  "bin": {
-    "json": "bin/cli.js"
-  },
   "keywords": [],
   "engines": {
     "node": ">=0.10.0"
