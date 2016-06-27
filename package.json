@@ -1,0 +1,23 @@
+{
+  "name": "local-web-server-json",
+  "author": "Lloyd Brookes <75pound@gmail.com>",
+  "version": "0.0.0",
+  "description": "json",
+  "repository": "https://github.com/local-web-server/json.git",
+  "license": "MIT",
+  "main": "./lib/json.js",
+  "bin": {
+    "json": "bin/cli.js"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "docs": "jsdoc2md -t jsdoc2md/README.md lib/*.js > README.md; echo"
+  },
+  "dependencies": {
+    "koa-json": "^1.1.3"
+  }
+}
