@@ -8,13 +8,13 @@
   "main": "./lib/json.js",
   "keywords": [],
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=7.6.0"
   },
   "scripts": {
     "test": "tape test/*.js",
     "docs": "jsdoc2md -t jsdoc2md/README.md lib/*.js > README.md; echo"
   },
   "dependencies": {
-    "koa-json": "^1.1.3"
+    "koa-json": "^2.0.2"
   }
 }
