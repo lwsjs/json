@@ -1,9 +1,9 @@
 {
-  "name": "local-web-server-json",
+  "name": "lws-json",
   "author": "Lloyd Brookes <75pound@gmail.com>",
   "version": "0.0.0",
   "description": "json",
-  "repository": "https://github.com/local-web-server/json.git",
+  "repository": "https://github.com/lwsjs/json.git",
   "license": "MIT",
   "main": "./lib/json.js",
   "keywords": [],
