@@ -1,7 +1,9 @@
-[![view on npm](http://img.shields.io/npm/v/local-web-server-json.svg)](https://www.npmjs.org/package/local-web-server-json)
-[![npm module downloads](http://img.shields.io/npm/dt/local-web-server-json.svg)](https://www.npmjs.org/package/local-web-server-json)
-[![Build Status](https://travis-ci.org/local-web-server/json.svg?branch=master)](https://travis-ci.org/local-web-server/json)
-[![Dependency Status](https://david-dm.org/local-web-server/json.svg)](https://david-dm.org/local-web-server/json)
+[![view on npm](https://img.shields.io/npm/v/lws-json.svg)](https://www.npmjs.org/package/lws-json)
+[![npm module downloads](https://img.shields.io/npm/dt/lws-json.svg)](https://www.npmjs.org/package/lws-json)
+[![Build Status](https://travis-ci.org/lwsjs/json.svg?branch=master)](https://travis-ci.org/lwsjs/json)
+[![Dependency Status](https://david-dm.org/lwsjs/json.svg)](https://david-dm.org/lwsjs/json)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://github.com/feross/standard)
 
 # json
+
+Wrapper for https://github.com/koajs/json.

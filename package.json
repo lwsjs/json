@@ -5,14 +5,12 @@
   "description": "json",
   "repository": "https://github.com/lwsjs/json.git",
   "license": "MIT",
-  "main": "./lib/json.js",
   "keywords": [],
   "engines": {
     "node": ">=7.6.0"
   },
   "scripts": {
-    "test": "tape test/*.js",
-    "docs": "jsdoc2md -t jsdoc2md/README.md lib/*.js > README.md; echo"
+    "test": "test-runner test.js"
   },
   "dependencies": {
     "koa-json": "^2.0.2"
