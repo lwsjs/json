@@ -6,4 +6,8 @@
 
 # json
 
-Wrapper for https://github.com/koajs/json.
+Lws middleware to pretty print JSON responses. Wraps https://github.com/koajs/json.
+
+* * *
+
+&copy; 2017 Lloyd Brookes <75pound@gmail.com>.

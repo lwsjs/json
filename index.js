@@ -1,6 +1,4 @@
-'use strict'
-
-class Json {
+module.exports = MiddlewareBase => class Json extends MiddlewareBase {
   description () {
     return 'Pretty-prints JSON responses. Also converts node object streams to binary.'
   }
@@ -9,5 +7,3 @@ class Json {
     return json()
   }
 }
-
-module.exports = Json
