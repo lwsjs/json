@@ -1,14 +1,13 @@
-const TestRunner = require('test-runner')
+const Tom = require('test-runner').Tom
 const Json = require('./')
 const Lws = require('lws')
-const request = require('req-then')
+const fetch = require('node-fetch')
 
-const runner = new TestRunner()
+const tom = module.exports = new Tom('json')
 
-runner.test('simple', async function () {
+tom.test('simple', async function () {
   const port = 8000 + this.index
-  const lws = new Lws()
-  const server = lws.create({ port, stack: Json })
-  const response = await request(`http://localhost:${port}/`)
-  server.close()
+  const lws = Lws.create({ port, stack: Json })
+  const response = await fetch(`http://localhost:${port}/`)
+  lws.server.close()
 })
