@@ -1,11 +1,13 @@
 {
   "name": "lws-json",
   "author": "Lloyd Brookes <75pound@gmail.com>",
-  "version": "0.3.2",
+  "version": "1.0.0",
   "description": "json",
   "repository": "https://github.com/lwsjs/json.git",
   "license": "MIT",
-  "keywords": [ "lws" ],
+  "keywords": [
+    "lws"
+  ],
   "engines": {
     "node": ">=8"
   },
