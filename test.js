@@ -3,7 +3,7 @@ const Json = require('./')
 const Lws = require('lws')
 const fetch = require('node-fetch')
 
-const tom = module.exports = new Tom('json')
+const tom = module.exports = new Tom()
 
 tom.test('simple', async function () {
   const port = 8000 + this.index
